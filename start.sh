@@ -22,7 +22,7 @@ DOCKER_CONFIG_VOL="/usr/share/logstash/config" # do not change - derived from do
 DOCKER_IMAGE_NAME="logstash";
 DOCKER_IMAGE_TAG="latest";
 DOCKER_CONTAINER_NAME="logstash-indexer";
-HOST_LOG_DIR="testlog"
+HOST_LOG_DIR="test/"
 HOST_CONFIG_DIR="config"
 
 # Special flags for docker run are always used and can only be ommitted by actively disabling them.
